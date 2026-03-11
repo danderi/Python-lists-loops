@@ -6,5 +6,3 @@ contact = {
 
 # Your code here
 
-for i in contact:
-    print(i+": " +contact[i])
