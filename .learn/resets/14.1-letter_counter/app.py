@@ -3,15 +3,6 @@ par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget bib
 counts = {}
 
 # Your code here
-for i in par.lower():
-    if i == " ":
-        continue
-    elif i not in counts:
-        counts[i]=1
-    else:
-        counts[i]+=1
 
-    
 
 print(counts)
-#print(par)

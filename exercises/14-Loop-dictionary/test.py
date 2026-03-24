@@ -23,7 +23,7 @@ def test_smart():
     assert bool(regex.search(content)) == True
 
 @pytest.mark.it("You should print in the console the dictionary with the proper translations")
-def test_multp(capsys, app):
+def test_multp(capsys):
     import app
     captured = capsys.readouterr()
     assert "{'dog': 'perro', 'house': 'casa', 'cat': 'gato', 'love': 'amor', 'code': 'codigo', 'smart': 'inteligente'}" in captured.out
